@@ -9,9 +9,6 @@ body{
     background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
     background: linear-gradient(to right, #ec2F4B, #009FFF);
 }
-#Page{
-    margin-bottom: 78px;
-}
 
 .load{
     margin-top: 18%;
@@ -82,7 +79,8 @@ body{
     font-size: xx-large;
     font-weight: 300;
     display: none;
-    background-color: #413b3b;
+    /* background-color: #413b3b; */
+    background-color: transparent;
     width: 100%;
     height: 100%;
     justify-content: center;

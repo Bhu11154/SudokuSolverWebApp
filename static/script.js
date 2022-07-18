@@ -3,7 +3,7 @@ const Input = document.getElementById("exInput");
 const timer = document.getElementById("Timer");
 const loading = document.getElementById("loading");
 const Page = document.getElementById("Page");
-const solving = document.getElementById("solving");
+// const solving = document.getElementById("solving");
 const body = document.body;
 var count = localStorage.getItem("Time");
 
@@ -22,14 +22,13 @@ function TimerStart(){
     count+=1;
     timer.innerText = "Solved in: "+ count + "s";
     
-    solving.innerText = "   "+ count + "s";
-    console.log(count)
+    // solving.innerText = "   "+ count + "s";
+    // console.log(count)
     localStorage.setItem("Time",count)
 }
 
 function Start(){
     count = 0;
-    body.classList.add("modal");
     loading.style.display = "flex";
     setInterval(TimerStart, 1000);
 }
