@@ -2,7 +2,6 @@ flask
 numpy 
 opencv-python
 opencv-python-headless
-tensorflow
 tensorflow-cpu
 keras
 scipy
